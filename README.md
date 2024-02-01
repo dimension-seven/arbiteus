@@ -1,14 +1,12 @@
 # Arbiteus
 
-<ins>https://arbiteus.net</ins>
-
 Arbiteus provides a quick and easy way to use your own machines for hosting your web apps.
 
 Whether you are prototyping a new idea and want an internet addressable way to reach your app running on localhost or you have an existing web app that you want to host across your multiple spare machines instead of paying cloud providers for expensive VMs, we've got you covered.
 
 ## Assumptions
 
-You have a web app running on atleast one your machines on a well defined port and is accessible via browser or curl using ```http://localhost:{your port}``` or ```https://localhost:{your port}```
+You have a web app running (your web app can be written in any language) on atleast one your machines on a well defined port and is accessible via browser or curl using ```http://localhost:{your port}``` or ```https://localhost:{your port}```
 
 You have outbound connectivity from your machine(s).
 
@@ -162,9 +160,6 @@ On a free account, the following limits apply :
 Please help us improve Arbiteus to serve your needs better and provide a good experience.
 
 If you want to reach out for feedback or suggestions you can : 
-
 1. Open an issue on the github repo : https://github.com/dimension-seven/arbiteus/issues
 2. Send an email to : d7n.seven@gmail.com 
-
-
 
