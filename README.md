@@ -157,5 +157,14 @@ On a free account, the following limits apply :
 	2. Workflow apps - Don't want to write complicated Spark and other Map Reduce jobs, you can use simple create a workflow that is serviced by your own machines and do data processing.
 6. Logs from all your machines accessible in a single place so you can debug request failures easily.
 
+### Feedback
+
+Please help us improve Arbiteus to serve your needs better and provide a good experience.
+
+If you want to reach out for feedback or suggestions you can : 
+
+1. Open an issue on the github repo : https://github.com/dimension-seven/arbiteus/issues
+2. Send an email to : d7n.seven@gmail.com 
+
 
 
