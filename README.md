@@ -6,7 +6,7 @@ Whether you are prototyping a new idea and want an internet addressable way to r
 
 ## Assumptions
 
-You have a web app running on atleast one your machines on a well defined port and is accessible via browser or curl using ```http://localhost:\{your port}``` or ```https://localhost:\{your port}```
+You have a web app running on atleast one your machines on a well defined port and is accessible via browser or curl using ```http://localhost:{your port}``` or ```https://localhost:{your port}```
 
 You have outbound connectivity from your machine(s).
 
