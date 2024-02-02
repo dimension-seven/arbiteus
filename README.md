@@ -10,13 +10,23 @@ You have a web app running (your web app can be written in any language) on atle
 
 You have outbound connectivity from your machine(s).
 
-You are using a Windows machine.
+You are using a Windows or Mac machine.
 
 ## Get Started
 
-Download the latest CLI for using Arbiteus on Windows : ```https://arbiteus.blob.core.windows.net/windows-cli/Arbiteus.CLI.exe```
+Download the latest CLI for using Arbiteus 
+
+1. on Windows : ```https://arbiteus.blob.core.windows.net/windows-cli/Arbiteus.CLI.exe```
+1. on Apple Silicon (M1, M2, M3) : ```https://arbiteus.blob.core.windows.net/mac-apple-silicon-cli/Arbiteus.CLI```
+1. on Apple Intel : ```https://arbiteus.blob.core.windows.net/mac-intel-cli/Arbiteus.CLI```
 
 Open a terminal or powershell and navigate to the folder where you downloaded the CLI
+
+For Windows commands start like : 
+```.\Arbiteus.CLI.exe [command]```
+
+For Mac commands start like :
+```./Arbiteus.CLI [command]```
 
 ### Check CLI Version
 
@@ -146,14 +156,13 @@ On a free account, the following limits apply :
 
 ### Features Coming Soon
 
-1. Support for MacOS
-2. Ability to deploy your updated binaries from your main development machine to all your supporting machines where workers are running.
-3. Support for Stateful Services.
-4. Replication for data folders across all your machines where workers are running.
-5. Support for additional types of app - 
+1. Ability to deploy your updated binaries from your main development machine to all your supporting machines where workers are running.
+1. Support for Stateful Services.
+1. Replication for data folders across all your machines where workers are running.
+1. Support for additional types of app - 
 	1. Command Center (run a terminal or powershell command on all your machines)
 	2. Workflow apps - Don't want to write complicated Spark and other Map Reduce jobs, you can use simple create a workflow that is serviced by your own machines and do data processing.
-6. Logs from all your machines accessible in a single place so you can debug request failures easily.
+1. Logs from all your machines accessible in a single place so you can debug request failures easily.
 
 ### Feedback
 
